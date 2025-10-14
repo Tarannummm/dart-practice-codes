@@ -18,3 +18,9 @@ void main() {
     print("$b is larger than $a");
   }
 }
+
+void main() {
+  int num = 6;
+  int square = num * num;
+  print("Square of $num is $square");
+}
