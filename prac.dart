@@ -7,3 +7,14 @@ void main() {
     print("$number is odd");
   }
 }
+
+void main() {
+  int a = 12;
+  int b = 9;
+
+  if (a > b) {
+    print("$a is larger than $b");
+  } else {
+    print("$b is larger than $a");
+  }
+}
