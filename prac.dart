@@ -38,3 +38,17 @@ void main() {
 
   print("After swapping: a = $a, b = $b");
 }
+//cube
+void main() {
+  int num = 3;
+  int cube = num * num * num;
+  print("Cube of $num is $cube");
+}
+
+//Area of a Rectangle
+void main() {
+  int length = 8;
+  int width = 5;
+  int area = length * width;
+  print("Area of rectangle is $area");
+}
