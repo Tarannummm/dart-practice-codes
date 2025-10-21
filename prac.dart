@@ -38,6 +38,7 @@ void main() {
 
   print("After swapping: a = $a, b = $b");
 }
+
 //cube
 void main() {
   int num = 3;
@@ -52,7 +53,6 @@ void main() {
   int area = length * width;
   print("Area of rectangle is $area");
 }
-
 
 //leapyear
 void main() {
@@ -75,4 +75,16 @@ void main() {
   }
 
   print("Factorial of $n is $fact");
+}
+
+//palindrome
+void main() {
+  String str = "madam";
+  String rev = str.split('').reversed.join('');
+
+  if (str == rev) {
+    print("$str is a palindrome");
+  } else {
+    print("$str is not a palindrome");
+  }
 }
