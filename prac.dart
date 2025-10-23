@@ -92,7 +92,7 @@ void main() {
 //swapping two numbers
 void main() {
   int a = 5, b = 10;
-  
+
   print("Before swapping: a=$a, b=$b");
 
   a = a + b;
@@ -100,4 +100,17 @@ void main() {
   a = a - b;
 
   print("After swapping: a=$a, b=$b");
+}
+
+//biggest from 3 numbers
+void main() {
+  int a = 15, b = 7, c = 20;
+
+  if (a <= b && a <= c) {
+    print("$a is the smallest");
+  } else if (b <= a && b <= c) {
+    print("$b is the smallest");
+  } else {
+    print("$c is the smallest");
+  }
 }
