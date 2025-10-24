@@ -114,3 +114,13 @@ void main() {
     print("$c is the smallest");
   }
 }
+//if thats vowel
+void main() {
+  String ch = 'e';
+  if ("aeiou".contains(ch.toLowerCase())) {
+    print("$ch is a vowel");
+  } else {
+    print("$ch is a consonant");
+  }
+}
+
